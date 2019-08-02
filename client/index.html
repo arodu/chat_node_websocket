@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Test Sockets</title>
+    <script src="/socket.io/socket.io.js" charset="utf-8"></script>
+    <script src="main.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <h1>Hola Mundo</h1>
+
+    <div id="messages" class="">
+    </div>
+    <hr/>
+    <form onsubmit="return addMessages(this)">
+      <input type="text" id="username" placeholder="Username">
+      <input type="text" id="text" placeholder="Texto">
+      <input type="submit" value="Enviar">
+    </form>
+
+  </body>
+</html>
